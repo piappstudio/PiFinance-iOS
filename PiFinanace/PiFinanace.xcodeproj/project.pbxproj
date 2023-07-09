@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DDBFA22A599E25000D3C09 /* PiFinanaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */; };
+		06DDBFA42A599E25000D3C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA32A599E25000D3C09 /* ContentView.swift */; };
+		06DDBFA62A599E28000D3C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DDBFA52A599E28000D3C09 /* Assets.xcassets */; };
+		06DDBFA92A599E28000D3C09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DDBFA82A599E28000D3C09 /* Preview Assets.xcassets */; };
+		06DDBFAB2A599E28000D3C09 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFAA2A599E28000D3C09 /* Item.swift */; };
+		06DDBFB52A599E29000D3C09 /* PiFinanaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */; };
+		06DDBFBF2A599E29000D3C09 /* PiFinanaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */; };
+		06DDBFC12A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06DDBFB12A599E29000D3C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DDBF962A599E25000D3C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DDBF9D2A599E25000D3C09;
+			remoteInfo = PiFinanace;
+		};
+		06DDBFBB2A599E29000D3C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DDBF962A599E25000D3C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DDBF9D2A599E25000D3C09;
+			remoteInfo = PiFinanace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06DDBF9E2A599E25000D3C09 /* PiFinanace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiFinanace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceApp.swift; sourceTree = "<group>"; };
+		06DDBFA32A599E25000D3C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06DDBFA52A599E28000D3C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06DDBFA82A599E28000D3C09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06DDBFAA2A599E28000D3C09 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		06DDBFB02A599E29000D3C09 /* PiFinanaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceTests.swift; sourceTree = "<group>"; };
+		06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceUITests.swift; sourceTree = "<group>"; };
+		06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DDBF9B2A599E25000D3C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DDBFAD2A599E29000D3C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DDBFB72A599E29000D3C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DDBF952A599E25000D3C09 = {
+			isa = PBXGroup;
+			children = (
+				06DDBFA02A599E25000D3C09 /* PiFinanace */,
+				06DDBFB32A599E29000D3C09 /* PiFinanaceTests */,
+				06DDBFBD2A599E29000D3C09 /* PiFinanaceUITests */,
+				06DDBF9F2A599E25000D3C09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06DDBF9F2A599E25000D3C09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBF9E2A599E25000D3C09 /* PiFinanace.app */,
+				06DDBFB02A599E29000D3C09 /* PiFinanaceTests.xctest */,
+				06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DDBFA02A599E25000D3C09 /* PiFinanace */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */,
+				06DDBFA32A599E25000D3C09 /* ContentView.swift */,
+				06DDBFA52A599E28000D3C09 /* Assets.xcassets */,
+				06DDBFAA2A599E28000D3C09 /* Item.swift */,
+				06DDBFA72A599E28000D3C09 /* Preview Content */,
+			);
+			path = PiFinanace;
+			sourceTree = "<group>";
+		};
+		06DDBFA72A599E28000D3C09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFA82A599E28000D3C09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06DDBFB32A599E29000D3C09 /* PiFinanaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */,
+			);
+			path = PiFinanaceTests;
+			sourceTree = "<group>";
+		};
+		06DDBFBD2A599E29000D3C09 /* PiFinanaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */,
+				06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */,
+			);
+			path = PiFinanaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06DDBF9D2A599E25000D3C09 /* PiFinanace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DDBFC42A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanace" */;
+			buildPhases = (
+				06DDBF9A2A599E25000D3C09 /* Sources */,
+				06DDBF9B2A599E25000D3C09 /* Frameworks */,
+				06DDBF9C2A599E25000D3C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiFinanace;
+			productName = PiFinanace;
+			productReference = 06DDBF9E2A599E25000D3C09 /* PiFinanace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06DDBFAF2A599E29000D3C09 /* PiFinanaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DDBFC72A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceTests" */;
+			buildPhases = (
+				06DDBFAC2A599E29000D3C09 /* Sources */,
+				06DDBFAD2A599E29000D3C09 /* Frameworks */,
+				06DDBFAE2A599E29000D3C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DDBFB22A599E29000D3C09 /* PBXTargetDependency */,
+			);
+			name = PiFinanaceTests;
+			productName = PiFinanaceTests;
+			productReference = 06DDBFB02A599E29000D3C09 /* PiFinanaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06DDBFB92A599E29000D3C09 /* PiFinanaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DDBFCA2A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceUITests" */;
+			buildPhases = (
+				06DDBFB62A599E29000D3C09 /* Sources */,
+				06DDBFB72A599E29000D3C09 /* Frameworks */,
+				06DDBFB82A599E29000D3C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DDBFBC2A599E29000D3C09 /* PBXTargetDependency */,
+			);
+			name = PiFinanaceUITests;
+			productName = PiFinanaceUITests;
+			productReference = 06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DDBF962A599E25000D3C09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					06DDBF9D2A599E25000D3C09 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					06DDBFAF2A599E29000D3C09 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 06DDBF9D2A599E25000D3C09;
+					};
+					06DDBFB92A599E29000D3C09 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 06DDBF9D2A599E25000D3C09;
+					};
+				};
+			};
+			buildConfigurationList = 06DDBF992A599E25000D3C09 /* Build configuration list for PBXProject "PiFinanace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06DDBF952A599E25000D3C09;
+			productRefGroup = 06DDBF9F2A599E25000D3C09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DDBF9D2A599E25000D3C09 /* PiFinanace */,
+				06DDBFAF2A599E29000D3C09 /* PiFinanaceTests */,
+				06DDBFB92A599E29000D3C09 /* PiFinanaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06DDBF9C2A599E25000D3C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DDBFA92A599E28000D3C09 /* Preview Assets.xcassets in Resources */,
+				06DDBFA62A599E28000D3C09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DDBFAE2A599E29000D3C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DDBFB82A599E29000D3C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DDBF9A2A599E25000D3C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DDBFA42A599E25000D3C09 /* ContentView.swift in Sources */,
+				06DDBFAB2A599E28000D3C09 /* Item.swift in Sources */,
+				06DDBFA22A599E25000D3C09 /* PiFinanaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DDBFAC2A599E29000D3C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DDBFB52A599E29000D3C09 /* PiFinanaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DDBFB62A599E29000D3C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DDBFC12A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift in Sources */,
+				06DDBFBF2A599E29000D3C09 /* PiFinanaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06DDBFB22A599E29000D3C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DDBF9D2A599E25000D3C09 /* PiFinanace */;
+			targetProxy = 06DDBFB12A599E29000D3C09 /* PBXContainerItemProxy */;
+		};
+		06DDBFBC2A599E29000D3C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DDBF9D2A599E25000D3C09 /* PiFinanace */;
+			targetProxy = 06DDBFBB2A599E29000D3C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06DDBFC22A599E29000D3C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06DDBFC32A599E29000D3C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DDBFC52A599E29000D3C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiFinanace/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06DDBFC62A599E29000D3C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiFinanace/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06DDBFC82A599E29000D3C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinanace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinanace";
+			};
+			name = Debug;
+		};
+		06DDBFC92A599E29000D3C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinanace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinanace";
+			};
+			name = Release;
+		};
+		06DDBFCB2A599E29000D3C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiFinanace;
+			};
+			name = Debug;
+		};
+		06DDBFCC2A599E29000D3C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiFinanace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DDBF992A599E25000D3C09 /* Build configuration list for PBXProject "PiFinanace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DDBFC22A599E29000D3C09 /* Debug */,
+				06DDBFC32A599E29000D3C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DDBFC42A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DDBFC52A599E29000D3C09 /* Debug */,
+				06DDBFC62A599E29000D3C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DDBFC72A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DDBFC82A599E29000D3C09 /* Debug */,
+				06DDBFC92A599E29000D3C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DDBFCA2A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DDBFCB2A599E29000D3C09 /* Debug */,
+				06DDBFCC2A599E29000D3C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06DDBF962A599E25000D3C09 /* Project object */;
+}
