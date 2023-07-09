@@ -7,13 +7,16 @@
 
 import SwiftUI
 import SwiftData
+import PiModel
 
 @main
 struct PiFinanaceApp: App {
+    
+    @StateObject var router:PiRouter = PiRouter()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreenView().environmentObject(router)
         }
         .modelContainer(for: Item.self)
     }

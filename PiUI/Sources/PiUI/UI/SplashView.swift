@@ -6,13 +6,20 @@
 //
 
 import SwiftUI
+import PiModel
 
-struct SwiftUIView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+public struct SplashView: View {
+    
+    @EnvironmentObject var router:PiRouter
+    
+    public init() {
+        
     }
-}
-
-#Preview {
-    SwiftUIView()
+    public var body: some View {
+        LottieView (name: "splash", completionHandler: { isFinsihed in
+            router.mainScreen = PiMainRouter.Dashboard
+        }, loopMode: .playOnce)
+            .frame(width: 250, height: 250, alignment: .center)
+    
+    }
 }

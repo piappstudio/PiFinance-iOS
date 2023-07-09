@@ -15,6 +15,12 @@
 		06DDBFB52A599E29000D3C09 /* PiFinanaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */; };
 		06DDBFBF2A599E29000D3C09 /* PiFinanaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */; };
 		06DDBFC12A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */; };
+		06DDBFD32A599ED2000D3C09 /* PiModel in Frameworks */ = {isa = PBXBuildFile; productRef = 06DDBFD22A599ED2000D3C09 /* PiModel */; };
+		06DDBFD52A599ED2000D3C09 /* PiUI in Frameworks */ = {isa = PBXBuildFile; productRef = 06DDBFD42A599ED2000D3C09 /* PiUI */; };
+		06DDBFD82A59A269000D3C09 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFD72A59A269000D3C09 /* MainScreenView.swift */; };
+		06DDBFD92A59A269000D3C09 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFD72A59A269000D3C09 /* MainScreenView.swift */; };
+		06DDBFDC2A59A29C000D3C09 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFDB2A59A29C000D3C09 /* DashboardView.swift */; };
+		06DDBFDD2A59A29C000D3C09 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFDB2A59A29C000D3C09 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,10 @@
 		06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceUITests.swift; sourceTree = "<group>"; };
 		06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06DDBFCF2A599E7D000D3C09 /* PiUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiUI; path = ../PiUI; sourceTree = "<group>"; };
+		06DDBFD02A599EA9000D3C09 /* PiModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiModel; path = ../PiModel; sourceTree = "<group>"; };
+		06DDBFD72A59A269000D3C09 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		06DDBFDB2A59A29C000D3C09 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DDBFD32A599ED2000D3C09 /* PiModel in Frameworks */,
+				06DDBFD52A599ED2000D3C09 /* PiUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +88,12 @@
 		06DDBF952A599E25000D3C09 = {
 			isa = PBXGroup;
 			children = (
+				06DDBFCE2A599E64000D3C09 /* Packages */,
 				06DDBFA02A599E25000D3C09 /* PiFinanace */,
 				06DDBFB32A599E29000D3C09 /* PiFinanaceTests */,
 				06DDBFBD2A599E29000D3C09 /* PiFinanaceUITests */,
 				06DDBF9F2A599E25000D3C09 /* Products */,
+				06DDBFD12A599ED2000D3C09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +110,7 @@
 		06DDBFA02A599E25000D3C09 /* PiFinanace */ = {
 			isa = PBXGroup;
 			children = (
+				06DDBFD62A59A24D000D3C09 /* UI */,
 				06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */,
 				06DDBFA32A599E25000D3C09 /* ContentView.swift */,
 				06DDBFA52A599E28000D3C09 /* Assets.xcassets */,
@@ -130,6 +145,39 @@
 			path = PiFinanaceUITests;
 			sourceTree = "<group>";
 		};
+		06DDBFCE2A599E64000D3C09 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFD02A599EA9000D3C09 /* PiModel */,
+				06DDBFCF2A599E7D000D3C09 /* PiUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		06DDBFD12A599ED2000D3C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06DDBFD62A59A24D000D3C09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFDA2A59A286000D3C09 /* Dashboard */,
+				06DDBFD72A59A269000D3C09 /* MainScreenView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		06DDBFDA2A59A286000D3C09 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				06DDBFDB2A59A29C000D3C09 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +194,10 @@
 			dependencies = (
 			);
 			name = PiFinanace;
+			packageProductDependencies = (
+				06DDBFD22A599ED2000D3C09 /* PiModel */,
+				06DDBFD42A599ED2000D3C09 /* PiUI */,
+			);
 			productName = PiFinanace;
 			productReference = 06DDBF9E2A599E25000D3C09 /* PiFinanace.app */;
 			productType = "com.apple.product-type.application";
@@ -262,7 +314,9 @@
 			files = (
 				06DDBFA42A599E25000D3C09 /* ContentView.swift in Sources */,
 				06DDBFAB2A599E28000D3C09 /* Item.swift in Sources */,
+				06DDBFDC2A59A29C000D3C09 /* DashboardView.swift in Sources */,
 				06DDBFA22A599E25000D3C09 /* PiFinanaceApp.swift in Sources */,
+				06DDBFD82A59A269000D3C09 /* MainScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DDBFC12A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift in Sources */,
+				06DDBFDD2A59A29C000D3C09 /* DashboardView.swift in Sources */,
+				06DDBFD92A59A269000D3C09 /* MainScreenView.swift in Sources */,
 				06DDBFBF2A599E29000D3C09 /* PiFinanaceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +642,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06DDBFD22A599ED2000D3C09 /* PiModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiModel;
+		};
+		06DDBFD42A599ED2000D3C09 /* PiUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 06DDBF962A599E25000D3C09 /* Project object */;
 }

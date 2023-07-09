@@ -6,10 +6,21 @@
 //
 
 import SwiftUI
+import PiUI
+import PiModel
 
 struct MainScreenView: View {
+    @EnvironmentObject var router:PiRouter
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        switch router.mainScreen {
+        case .Splash:
+            SplashView().environmentObject(router)
+        case .Dashboard:
+            DashboardView()
+        default:
+            SplashView().environmentObject(router)
+        }
     }
 }
 

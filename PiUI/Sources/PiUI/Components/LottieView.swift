@@ -11,7 +11,7 @@ import Lottie
 struct LottieView: UIViewRepresentable {
     var name = "success"
     var completionHandler:(Bool)->()
-    var loopMode: LottieLoopMode = .loop
+    var loopMode: LottieLoopMode = .playOnce
 
     func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
         let view = UIView(frame: .zero)
