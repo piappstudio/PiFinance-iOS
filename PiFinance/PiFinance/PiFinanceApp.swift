@@ -10,7 +10,7 @@ import SwiftData
 import PiModel
 
 @main
-struct PiFinanaceApp: App {
+struct PiFinanceApp: App {
     
     @StateObject var router:PiRouter = PiRouter()
 

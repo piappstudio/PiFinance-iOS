@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06DDBFA22A599E25000D3C09 /* PiFinanaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */; };
+		06DDBFA22A599E25000D3C09 /* PiFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA12A599E25000D3C09 /* PiFinanceApp.swift */; };
 		06DDBFA42A599E25000D3C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA32A599E25000D3C09 /* ContentView.swift */; };
 		06DDBFA62A599E28000D3C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DDBFA52A599E28000D3C09 /* Assets.xcassets */; };
 		06DDBFA92A599E28000D3C09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DDBFA82A599E28000D3C09 /* Preview Assets.xcassets */; };
 		06DDBFAB2A599E28000D3C09 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFAA2A599E28000D3C09 /* Item.swift */; };
-		06DDBFB52A599E29000D3C09 /* PiFinanaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */; };
-		06DDBFBF2A599E29000D3C09 /* PiFinanaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */; };
-		06DDBFC12A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */; };
+		06DDBFB52A599E29000D3C09 /* PiFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFB42A599E29000D3C09 /* PiFinanceTests.swift */; };
+		06DDBFBF2A599E29000D3C09 /* PiFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFBE2A599E29000D3C09 /* PiFinanceUITests.swift */; };
+		06DDBFC12A599E29000D3C09 /* PiFinanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFC02A599E29000D3C09 /* PiFinanceUITestsLaunchTests.swift */; };
 		06DDBFD32A599ED2000D3C09 /* PiModel in Frameworks */ = {isa = PBXBuildFile; productRef = 06DDBFD22A599ED2000D3C09 /* PiModel */; };
 		06DDBFD52A599ED2000D3C09 /* PiUI in Frameworks */ = {isa = PBXBuildFile; productRef = 06DDBFD42A599ED2000D3C09 /* PiUI */; };
 		06DDBFD82A59A269000D3C09 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFD72A59A269000D3C09 /* MainScreenView.swift */; };
@@ -41,17 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06DDBF9E2A599E25000D3C09 /* PiFinanace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiFinanace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceApp.swift; sourceTree = "<group>"; };
+		06DDBF9E2A599E25000D3C09 /* PiFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDBFA12A599E25000D3C09 /* PiFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceApp.swift; sourceTree = "<group>"; };
 		06DDBFA32A599E25000D3C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06DDBFA52A599E28000D3C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DDBFA82A599E28000D3C09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06DDBFAA2A599E28000D3C09 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		06DDBFB02A599E29000D3C09 /* PiFinanaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceTests.swift; sourceTree = "<group>"; };
-		06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceUITests.swift; sourceTree = "<group>"; };
-		06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06DDBFB02A599E29000D3C09 /* PiFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDBFB42A599E29000D3C09 /* PiFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceTests.swift; sourceTree = "<group>"; };
+		06DDBFBA2A599E29000D3C09 /* PiFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDBFBE2A599E29000D3C09 /* PiFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceUITests.swift; sourceTree = "<group>"; };
+		06DDBFC02A599E29000D3C09 /* PiFinanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		06DDBFCF2A599E7D000D3C09 /* PiUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiUI; path = ../PiUI; sourceTree = "<group>"; };
 		06DDBFD02A599EA9000D3C09 /* PiModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiModel; path = ../PiModel; sourceTree = "<group>"; };
 		06DDBFD72A59A269000D3C09 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				06DDBFCE2A599E64000D3C09 /* Packages */,
-				06DDBFA02A599E25000D3C09 /* PiFinanace */,
-				06DDBFB32A599E29000D3C09 /* PiFinanaceTests */,
-				06DDBFBD2A599E29000D3C09 /* PiFinanaceUITests */,
+				06DDBFA02A599E25000D3C09 /* PiFinance */,
+				06DDBFB32A599E29000D3C09 /* PiFinanceTests */,
+				06DDBFBD2A599E29000D3C09 /* PiFinanceUITests */,
 				06DDBF9F2A599E25000D3C09 /* Products */,
 				06DDBFD12A599ED2000D3C09 /* Frameworks */,
 			);
@@ -100,24 +100,24 @@
 		06DDBF9F2A599E25000D3C09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06DDBF9E2A599E25000D3C09 /* PiFinanace.app */,
-				06DDBFB02A599E29000D3C09 /* PiFinanaceTests.xctest */,
-				06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */,
+				06DDBF9E2A599E25000D3C09 /* PiFinance.app */,
+				06DDBFB02A599E29000D3C09 /* PiFinanceTests.xctest */,
+				06DDBFBA2A599E29000D3C09 /* PiFinanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06DDBFA02A599E25000D3C09 /* PiFinanace */ = {
+		06DDBFA02A599E25000D3C09 /* PiFinance */ = {
 			isa = PBXGroup;
 			children = (
 				06DDBFD62A59A24D000D3C09 /* UI */,
-				06DDBFA12A599E25000D3C09 /* PiFinanaceApp.swift */,
+				06DDBFA12A599E25000D3C09 /* PiFinanceApp.swift */,
 				06DDBFA32A599E25000D3C09 /* ContentView.swift */,
 				06DDBFA52A599E28000D3C09 /* Assets.xcassets */,
 				06DDBFAA2A599E28000D3C09 /* Item.swift */,
 				06DDBFA72A599E28000D3C09 /* Preview Content */,
 			);
-			path = PiFinanace;
+			path = PiFinance;
 			sourceTree = "<group>";
 		};
 		06DDBFA72A599E28000D3C09 /* Preview Content */ = {
@@ -128,21 +128,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		06DDBFB32A599E29000D3C09 /* PiFinanaceTests */ = {
+		06DDBFB32A599E29000D3C09 /* PiFinanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				06DDBFB42A599E29000D3C09 /* PiFinanaceTests.swift */,
+				06DDBFB42A599E29000D3C09 /* PiFinanceTests.swift */,
 			);
-			path = PiFinanaceTests;
+			path = PiFinanceTests;
 			sourceTree = "<group>";
 		};
-		06DDBFBD2A599E29000D3C09 /* PiFinanaceUITests */ = {
+		06DDBFBD2A599E29000D3C09 /* PiFinanceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				06DDBFBE2A599E29000D3C09 /* PiFinanaceUITests.swift */,
-				06DDBFC02A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift */,
+				06DDBFBE2A599E29000D3C09 /* PiFinanceUITests.swift */,
+				06DDBFC02A599E29000D3C09 /* PiFinanceUITestsLaunchTests.swift */,
 			);
-			path = PiFinanaceUITests;
+			path = PiFinanceUITests;
 			sourceTree = "<group>";
 		};
 		06DDBFCE2A599E64000D3C09 /* Packages */ = {
@@ -181,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06DDBF9D2A599E25000D3C09 /* PiFinanace */ = {
+		06DDBF9D2A599E25000D3C09 /* PiFinance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06DDBFC42A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanace" */;
+			buildConfigurationList = 06DDBFC42A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinance" */;
 			buildPhases = (
 				06DDBF9A2A599E25000D3C09 /* Sources */,
 				06DDBF9B2A599E25000D3C09 /* Frameworks */,
@@ -193,18 +193,18 @@
 			);
 			dependencies = (
 			);
-			name = PiFinanace;
+			name = PiFinance;
 			packageProductDependencies = (
 				06DDBFD22A599ED2000D3C09 /* PiModel */,
 				06DDBFD42A599ED2000D3C09 /* PiUI */,
 			);
 			productName = PiFinanace;
-			productReference = 06DDBF9E2A599E25000D3C09 /* PiFinanace.app */;
+			productReference = 06DDBF9E2A599E25000D3C09 /* PiFinance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06DDBFAF2A599E29000D3C09 /* PiFinanaceTests */ = {
+		06DDBFAF2A599E29000D3C09 /* PiFinanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06DDBFC72A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceTests" */;
+			buildConfigurationList = 06DDBFC72A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanceTests" */;
 			buildPhases = (
 				06DDBFAC2A599E29000D3C09 /* Sources */,
 				06DDBFAD2A599E29000D3C09 /* Frameworks */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				06DDBFB22A599E29000D3C09 /* PBXTargetDependency */,
 			);
-			name = PiFinanaceTests;
+			name = PiFinanceTests;
 			productName = PiFinanaceTests;
-			productReference = 06DDBFB02A599E29000D3C09 /* PiFinanaceTests.xctest */;
+			productReference = 06DDBFB02A599E29000D3C09 /* PiFinanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06DDBFB92A599E29000D3C09 /* PiFinanaceUITests */ = {
+		06DDBFB92A599E29000D3C09 /* PiFinanceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06DDBFCA2A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceUITests" */;
+			buildConfigurationList = 06DDBFCA2A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanceUITests" */;
 			buildPhases = (
 				06DDBFB62A599E29000D3C09 /* Sources */,
 				06DDBFB72A599E29000D3C09 /* Frameworks */,
@@ -233,9 +233,9 @@
 			dependencies = (
 				06DDBFBC2A599E29000D3C09 /* PBXTargetDependency */,
 			);
-			name = PiFinanaceUITests;
+			name = PiFinanceUITests;
 			productName = PiFinanaceUITests;
-			productReference = 06DDBFBA2A599E29000D3C09 /* PiFinanaceUITests.xctest */;
+			productReference = 06DDBFBA2A599E29000D3C09 /* PiFinanceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06DDBF992A599E25000D3C09 /* Build configuration list for PBXProject "PiFinanace" */;
+			buildConfigurationList = 06DDBF992A599E25000D3C09 /* Build configuration list for PBXProject "PiFinance" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,9 +274,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06DDBF9D2A599E25000D3C09 /* PiFinanace */,
-				06DDBFAF2A599E29000D3C09 /* PiFinanaceTests */,
-				06DDBFB92A599E29000D3C09 /* PiFinanaceUITests */,
+				06DDBF9D2A599E25000D3C09 /* PiFinance */,
+				06DDBFAF2A599E29000D3C09 /* PiFinanceTests */,
+				06DDBFB92A599E29000D3C09 /* PiFinanceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 				06DDBFA42A599E25000D3C09 /* ContentView.swift in Sources */,
 				06DDBFAB2A599E28000D3C09 /* Item.swift in Sources */,
 				06DDBFDC2A59A29C000D3C09 /* DashboardView.swift in Sources */,
-				06DDBFA22A599E25000D3C09 /* PiFinanaceApp.swift in Sources */,
+				06DDBFA22A599E25000D3C09 /* PiFinanceApp.swift in Sources */,
 				06DDBFD82A59A269000D3C09 /* MainScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DDBFB52A599E29000D3C09 /* PiFinanaceTests.swift in Sources */,
+				06DDBFB52A599E29000D3C09 /* PiFinanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DDBFC12A599E29000D3C09 /* PiFinanaceUITestsLaunchTests.swift in Sources */,
+				06DDBFC12A599E29000D3C09 /* PiFinanceUITestsLaunchTests.swift in Sources */,
 				06DDBFDD2A59A29C000D3C09 /* DashboardView.swift in Sources */,
 				06DDBFD92A59A269000D3C09 /* MainScreenView.swift in Sources */,
-				06DDBFBF2A599E29000D3C09 /* PiFinanaceUITests.swift in Sources */,
+				06DDBFBF2A599E29000D3C09 /* PiFinanceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,12 +344,12 @@
 /* Begin PBXTargetDependency section */
 		06DDBFB22A599E29000D3C09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06DDBF9D2A599E25000D3C09 /* PiFinanace */;
+			target = 06DDBF9D2A599E25000D3C09 /* PiFinance */;
 			targetProxy = 06DDBFB12A599E29000D3C09 /* PBXContainerItemProxy */;
 		};
 		06DDBFBC2A599E29000D3C09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06DDBF9D2A599E25000D3C09 /* PiFinanace */;
+			target = 06DDBF9D2A599E25000D3C09 /* PiFinance */;
 			targetProxy = 06DDBFBB2A599E29000D3C09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PiFinanace/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PiFinance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -494,7 +494,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanace;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -509,7 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PiFinanace/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PiFinance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -522,7 +522,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinanace;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piappstudio.PiFinance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -545,7 +545,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinanace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinanace";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinance";
 			};
 			name = Debug;
 		};
@@ -564,7 +564,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinanace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinanace";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiFinance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiFinance";
 			};
 			name = Release;
 		};
@@ -605,7 +605,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06DDBF992A599E25000D3C09 /* Build configuration list for PBXProject "PiFinanace" */ = {
+		06DDBF992A599E25000D3C09 /* Build configuration list for PBXProject "PiFinance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06DDBFC22A599E29000D3C09 /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06DDBFC42A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanace" */ = {
+		06DDBFC42A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06DDBFC52A599E29000D3C09 /* Debug */,
@@ -623,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06DDBFC72A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceTests" */ = {
+		06DDBFC72A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06DDBFC82A599E29000D3C09 /* Debug */,
@@ -632,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06DDBFCA2A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanaceUITests" */ = {
+		06DDBFCA2A599E29000D3C09 /* Build configuration list for PBXNativeTarget "PiFinanceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06DDBFCB2A599E29000D3C09 /* Debug */,
