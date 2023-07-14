@@ -4,34 +4,29 @@
 import PackageDescription
 
 let package = Package(
-    name: "PiUI",
-    defaultLocalization: "en",
+    name: "PiNavigation",
     platforms: [
             .iOS(.v16)
         ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "PiUI",
-            targets: ["PiUI"]),
+            name: "PiNavigation",
+            targets: ["PiNavigation"]),
     ],
     dependencies: [
            // Dependencies declare other packages that this package depends on.
            // .package(url: /* package url */, from: "1.0.0"),
-           .package(url: "https://github.com/airbnb/lottie-ios.git", from: "3.4.2"),
-           .package(path: "../PiModel"),
-           .package(path: "../PiNavigation")
+           .package(path: "../PiModel")
            
        ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "PiUI",
-            dependencies:["PiModel", "PiNavigation", .product(name: "Lottie", package: "lottie-ios", condition: nil)],
-            resources:[.process("Resources"), .process("en.lproj")]),
+            name: "PiNavigation", dependencies: ["PiModel"]),
         .testTarget(
-            name: "PiUITests",
-            dependencies: ["PiUI"]),
+            name: "PiNavigationTests",
+            dependencies: ["PiNavigation"]),
     ]
 )

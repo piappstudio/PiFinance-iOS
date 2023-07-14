@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06688F182A5F286000ED62CC /* PiAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = 06688F172A5F286000ED62CC /* PiAuthentication */; };
+		06688F1A2A5F286000ED62CC /* PiBorrower in Frameworks */ = {isa = PBXBuildFile; productRef = 06688F192A5F286000ED62CC /* PiBorrower */; };
+		06688F1C2A5F286000ED62CC /* PiLender in Frameworks */ = {isa = PBXBuildFile; productRef = 06688F1B2A5F286000ED62CC /* PiLender */; };
+		0671C70C2A5CB32100106E90 /* PiNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 0671C70B2A5CB32100106E90 /* PiNavigation */; };
 		06DDBFA22A599E25000D3C09 /* PiFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA12A599E25000D3C09 /* PiFinanceApp.swift */; };
 		06DDBFA42A599E25000D3C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDBFA32A599E25000D3C09 /* ContentView.swift */; };
 		06DDBFA62A599E28000D3C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DDBFA52A599E28000D3C09 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0671C70A2A5CB10F00106E90 /* PiNavigation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiNavigation; path = ../PiNavigation; sourceTree = "<group>"; };
+		0671C70D2A5CB47A00106E90 /* PiAuthentication */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiAuthentication; path = ../PiAuthentication; sourceTree = "<group>"; };
+		06DB6FFA2A60929C00418023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		06DB6FFD2A61888700418023 /* PIShared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PIShared; path = ../PIShared; sourceTree = "<group>"; };
 		06DDBF9E2A599E25000D3C09 /* PiFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DDBFA12A599E25000D3C09 /* PiFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiFinanceApp.swift; sourceTree = "<group>"; };
 		06DDBFA32A599E25000D3C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +64,8 @@
 		06DDBFD02A599EA9000D3C09 /* PiModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiModel; path = ../PiModel; sourceTree = "<group>"; };
 		06DDBFD72A59A269000D3C09 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		06DDBFDB2A59A29C000D3C09 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		06DFB04D2A5F247A00E03087 /* PiLender */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiLender; path = ../PiLender; sourceTree = "<group>"; };
+		06DFB04E2A5F24AA00E03087 /* PiBorrower */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PiBorrower; path = ../PiBorrower; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06688F1A2A5F286000ED62CC /* PiBorrower in Frameworks */,
 				06DDBFD32A599ED2000D3C09 /* PiModel in Frameworks */,
+				06688F182A5F286000ED62CC /* PiAuthentication in Frameworks */,
 				06DDBFD52A599ED2000D3C09 /* PiUI in Frameworks */,
+				0671C70C2A5CB32100106E90 /* PiNavigation in Frameworks */,
+				06688F1C2A5F286000ED62CC /* PiLender in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +124,7 @@
 		06DDBFA02A599E25000D3C09 /* PiFinance */ = {
 			isa = PBXGroup;
 			children = (
+				06DB6FFA2A60929C00418023 /* Info.plist */,
 				06DDBFD62A59A24D000D3C09 /* UI */,
 				06DDBFA12A599E25000D3C09 /* PiFinanceApp.swift */,
 				06DDBFA32A599E25000D3C09 /* ContentView.swift */,
@@ -148,6 +163,11 @@
 		06DDBFCE2A599E64000D3C09 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				06DB6FFD2A61888700418023 /* PIShared */,
+				06DFB04E2A5F24AA00E03087 /* PiBorrower */,
+				06DFB04D2A5F247A00E03087 /* PiLender */,
+				0671C70D2A5CB47A00106E90 /* PiAuthentication */,
+				0671C70A2A5CB10F00106E90 /* PiNavigation */,
 				06DDBFD02A599EA9000D3C09 /* PiModel */,
 				06DDBFCF2A599E7D000D3C09 /* PiUI */,
 			);
@@ -197,6 +217,10 @@
 			packageProductDependencies = (
 				06DDBFD22A599ED2000D3C09 /* PiModel */,
 				06DDBFD42A599ED2000D3C09 /* PiUI */,
+				0671C70B2A5CB32100106E90 /* PiNavigation */,
+				06688F172A5F286000ED62CC /* PiAuthentication */,
+				06688F192A5F286000ED62CC /* PiBorrower */,
+				06688F1B2A5F286000ED62CC /* PiLender */,
 			);
 			productName = PiFinanace;
 			productReference = 06DDBF9E2A599E25000D3C09 /* PiFinance.app */;
@@ -407,6 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -464,6 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -484,6 +510,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PiFinance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiFinance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -512,6 +539,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PiFinance/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiFinance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -644,6 +672,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		06688F172A5F286000ED62CC /* PiAuthentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiAuthentication;
+		};
+		06688F192A5F286000ED62CC /* PiBorrower */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiBorrower;
+		};
+		06688F1B2A5F286000ED62CC /* PiLender */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiLender;
+		};
+		0671C70B2A5CB32100106E90 /* PiNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PiNavigation;
+		};
 		06DDBFD22A599ED2000D3C09 /* PiModel */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PiModel;

@@ -6,18 +6,18 @@
 //
 
 import SwiftUI
-import PiModel
+import PiNavigation
 
 public struct SplashView: View {
     
-    @EnvironmentObject var router:PiRouter
+    @EnvironmentObject var navManager:PiNavigationManager
     
     public init() {
         
     }
     public var body: some View {
         LottieView (name: "splash", completionHandler: { isFinsihed in
-            router.mainScreen = PiMainRouter.Dashboard
+            navManager.mainScreen = PiMainRouter.Dashboard
         }, loopMode: .playOnce)
             .frame(width: 250, height: 250, alignment: .center)
     
