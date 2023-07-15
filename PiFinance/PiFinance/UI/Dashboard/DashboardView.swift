@@ -10,6 +10,7 @@ import PiLender
 import PiNavigation
 import PiAuthentication
 import PiBorrower
+import PiShared
 
 struct DashboardView: View {
     @EnvironmentObject var navManager:PiNavigationManager
@@ -19,13 +20,17 @@ struct DashboardView: View {
             
             NavigationStack (path: $navManager.lenderNavPath){
                 PiLenderDashboard()
-                    
-                    // Handle all possible lender's screens here
+                
+                // Handle all possible lender's screens here
                     .navigationDestination(for: PiNavInfo.self) { piInfo in
                         let routeId = PiDeepLink(rawValue: piInfo.routeId)
                         switch routeId {
                         case .lender_transaction:
-                            PiLenderTransaction()
+                            PiTransactionListView(params: ["source":"lender"] )
+                        case .transaction_detail:
+                            if let dict = piInfo.dict {
+                                PiTransactionDetail(params: dict)
+                            }
                         default:
                             PiLenderDashboard()
                         }
@@ -36,13 +41,17 @@ struct DashboardView: View {
             
             NavigationStack (path: $navManager.borrowerNavPath){
                 PiBorrowerDashboard()
-                    
-                    // Handle all possible borrower's screens here
+                
+                // Handle all possible borrower's screens here
                     .navigationDestination(for: PiNavInfo.self) { piInfo in
                         let routeId = PiDeepLink(rawValue: piInfo.routeId)
                         switch routeId {
-                        case .lender_transaction:
-                            PiBorrowerTransaction()
+                        case .borrower_transaction:
+                            PiTransactionListView(params: ["source":"borrower"])
+                        case .transaction_detail:
+                            if let dict = piInfo.dict {
+                                PiTransactionDetail(params: dict)
+                            }
                         default:
                             PiBorrowerDashboard()
                         }

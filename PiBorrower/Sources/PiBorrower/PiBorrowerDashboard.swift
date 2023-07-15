@@ -22,7 +22,7 @@ public struct PiBorrowerDashboard: View {
             VStack {
                 Text("Borrower Dashboard")
                 Button   {
-                    router.borrowerNavPath.append(PiNavInfo(routeId: PiDeepLink.lender_transaction.rawValue, dict: nil))
+                    router.borrowerNavPath.append(PiNavInfo(routeId: PiDeepLink.borrower_transaction.rawValue, dict: nil))
                     
                 } label: {
                     Text("Transactions")

@@ -4,24 +4,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "PIShared",
+    name: "PiShared",
     platforms: [
             .iOS(.v16)
         ],
+
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "PIShared",
-            targets: ["PIShared"]),
+            name: "PiShared",
+            targets: ["PiShared"]),
     ],
-    dependencies: [.package(path: "../PiUI"), .package(path: "../PiNavigation")],
+    dependencies: [.package(path: "../PiUI")],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "PIShared", dependencies: ["PiUI", "PiNavigation"]),
+            name: "PiShared", dependencies: ["PiUI"]),
         .testTarget(
-            name: "PISharedTests",
-            dependencies: ["PIShared"]),
+            name: "PiSharedTests",
+            dependencies: ["PiShared"]),
     ]
 )

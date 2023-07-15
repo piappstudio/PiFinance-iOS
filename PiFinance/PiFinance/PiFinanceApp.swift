@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 import PiNavigation
+import PiModel
 
 @main
 struct PiFinanceApp: App {
@@ -33,28 +34,37 @@ struct PiFinanceApp: App {
                 // Reset the tab
                 navManager.activeTab = mainTab
                 
-                let urlComponent = URLComponents(url: url, resolvingAgainstBaseURL: false)
-                let lastComponent = url.lastPathComponent
-                var navInfo = PiNavInfo(routeId: lastComponent)
+                if url.pathComponents.count >= 2  {
+                    
+                    let urlComponent = URLComponents(url: url, resolvingAgainstBaseURL: false)
+                    let lastComponent = url.lastPathComponent
+                    
+                    var navInfo = PiNavInfo(routeId: lastComponent)
+                    
+                    let params = urlComponent?.queryItems?.reduce(into: [String:String]()) { dict, queryItem in
+                        dict[queryItem.name] = queryItem.value
+                    }
+                    
+                    if let strDict = JsonCoder.encode(type: params) {
+                        navInfo.dict = ["data":strDict]
+                    }
+                    
                 
-                let params = urlComponent?.queryItems?.reduce(into: [String:String]()) { dict, queryItem in
-                    dict[queryItem.name] = queryItem.value
+                    dump(navInfo)
+                    
+                    // Detect the navigation path
+                    switch mainTab {
+                    case .lender:
+                        navManager.lenderNavPath.append(navInfo)
+                    case .borrower:
+                        navManager.borrowerNavPath.append(navInfo)
+                    case .notification:
+                        navManager.notificationNavPath.append(navInfo)
+                    case .settings:
+                        navManager.settingNavPath.append(navInfo)
+                    }
                 }
-                
-                navInfo.dict = params
-                dump(navInfo)
-                
-                // Detect the navigation path
-                switch mainTab {
-                case .lender:
-                    navManager.lenderNavPath.append(navInfo)
-                case .borrower:
-                    navManager.borrowerNavPath.append(navInfo)
-                case .notification:
-                    navManager.notificationNavPath.append(navInfo)
-                case .settings:
-                    navManager.settingNavPath.append(navInfo)
-                }
+              
             
             })
         }

@@ -7,7 +7,14 @@ import PiModel
 
 public class PiNavigationManager : ObservableObject {
     
+    
+    // To maintian the tab
     @Published public var activeTab: PiTabInfo = PiTabInfo.lender
+    
+    // All NavigationPath will take only NavInfo
+    // All NavigationLink should pass only NavInfo value
+    // For List item navigation use NavigationLink
+    // For Button actions, Use append navigation path value
     
     @Published public var lenderNavPath = NavigationPath()
     @Published public var borrowerNavPath = NavigationPath()

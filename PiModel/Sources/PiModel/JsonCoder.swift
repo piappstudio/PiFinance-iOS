@@ -8,21 +8,30 @@
 import Foundation
 
 extension String {
-    func decode(json:Data, type:Decodable.Type)->Decodable? {
+    
+    
+   
+}
+
+public struct JsonCoder {
+    public static func decode<T>(type:T.Type, from:String)->T? where T:Codable {
         do {
-            return try JSONDecoder().decode(type.self, from: json)
+            let data = Data(from.utf8)
+            return try JSONDecoder().decode(type, from: data)
         }catch {
             print(error)
         }
         return nil
     }
-    
-    func encode(type:Encodable.Type)->Data? {
-        do {
-            return try JSONEncoder().encode(type)
-        } catch {
-            print (error)
-        }
-        return nil
-    }
+    public static func encode<T>(type:T)->String? where T:Codable {
+         do {
+             let data = try JSONEncoder().encode(type)
+             return String(decoding: data, as: UTF8.self)
+             
+         } catch {
+             print (error)
+         }
+         return nil
+     
+     }
 }

@@ -1,7 +1,7 @@
 import XCTest
-@testable import PIShared
+@testable import PiShared
 
-final class PISharedTests: XCTestCase {
+final class PiSharedTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

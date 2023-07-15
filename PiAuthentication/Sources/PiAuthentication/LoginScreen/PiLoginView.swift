@@ -35,7 +35,7 @@ public struct PiLoginView: View {
                         .textFieldStyle(PiOvalTextFieldStyle())
                     
                     Button {
-                        navManager.authNavPath.append(PiNavInfo(routeId: PiDeepLink.otp.rawValue, dict: nil))
+                        navManager.authNavPath.append(PiNavInfo(routeId: PiDeepLink.otp.rawValue, dict: ["phone":"123-34-4445"]))
                     } label: {
                         Text ("continue".fromLocalization(bundle: .module)).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/).padding(10)
                     }

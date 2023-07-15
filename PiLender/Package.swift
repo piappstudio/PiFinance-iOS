@@ -14,12 +14,13 @@ let package = Package(
             name: "PiLender",
             targets: ["PiLender"]),
     ],
-    dependencies: [.package(path: "../PiUI"), .package(path: "../PiNavigation"), .package(path: "../PiAuthentication")],
+    dependencies: [.package(path: "../PiUI"), .package(path: "../PiNavigation"),
+                   .package(path: "../PiAuthentication"), .package(path: "../PiShared")],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "PiLender", dependencies: ["PiUI", "PiNavigation", "PiAuthentication"]),
+            name: "PiLender", dependencies: ["PiUI", "PiNavigation", "PiAuthentication", "PiShared"]),
         .testTarget(
             name: "PiLenderTests",
             dependencies: ["PiLender"]),
