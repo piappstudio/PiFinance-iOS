@@ -7,23 +7,23 @@
 
 import SwiftUI
 import PiUI
-import PiModel
+import PiNavigation
 
 struct MainScreenView: View {
-    @EnvironmentObject var router:PiRouter
+    @EnvironmentObject var navManager:PiNavigationManager
     
     var body: some View {
-        switch router.mainScreen {
+        switch navManager.mainScreen {
         case .Splash:
-            SplashView().environmentObject(router)
+            SplashView().environmentObject(navManager)
         case .Dashboard:
             DashboardView()
         default:
-            SplashView().environmentObject(router)
+            SplashView().environmentObject(navManager)
         }
     }
 }
 
 #Preview {
-    MainScreenView()
+    MainScreenView().environmentObject(PiNavigationManager())
 }
