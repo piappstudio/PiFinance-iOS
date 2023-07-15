@@ -2,6 +2,11 @@
 An iOS application developed in SwiftUI to create youtube video tutorial to guide the iOS developer to speed their SwiftUI skills.
 This app helps to connect non-organized lender and buyers across the world to exchange the money with their own terms &amp; conditions
 
+# Youtube Videos:
+- Introduction: https://youtu.be/PzfpbVMt7lk
+- Splash Screen Integration with Conditional Based Root Navigation: https://youtu.be/_dCvXFE9zXc
+- SwiftUI Complex App Navigation & Deeplink integrations : https://youtu.be/gyIiKw-SYkU
+
 # Key Decisions
 
 Support iOS 16 & Above
